@@ -1,0 +1,98 @@
+[
+  {
+    "id": "te-1988",
+    "date": "1988-07-19",
+    "jalaliDate": "1367/04/28",
+    "title": "Mass Executions",
+    "deaths": 4000,
+    "caseStatus": "active",
+    "commandersIdentified": 47,
+    "victimsDocumented": 892,
+    "evidencePackages": 23,
+    "description": "Political prisoners executed in Evin and Gohardasht prisons following fatwa. JB database: 47 commanders identified, 892 victims documented, 23 mass grave sites confirmed by satellite imagery."
+  },
+  {
+    "id": "te-1999",
+    "date": "1999-07-09",
+    "jalaliDate": "1378/04/18",
+    "title": "Student Uprising",
+    "deaths": 5,
+    "caseStatus": "pending",
+    "commandersIdentified": 12,
+    "victimsDocumented": 1200,
+    "evidencePackages": 4,
+    "description": "Post-election crackdown following university protests. 1,200+ detentions. 5 confirmed deaths. Security force unit records indexed."
+  },
+  {
+    "id": "te-2009",
+    "date": "2009-06-13",
+    "jalaliDate": "1388/03/23",
+    "title": "Green Movement",
+    "deaths": 72,
+    "caseStatus": "active",
+    "commandersIdentified": 31,
+    "victimsDocumented": 1847,
+    "evidencePackages": 18,
+    "description": "Post-election crackdown. 1,847 detention records indexed. 72 confirmed deaths. Basij and IRGC unit records cross-referenced."
+  },
+  {
+    "id": "te-2019",
+    "date": "2019-11-15",
+    "jalaliDate": "1398/08/24",
+    "title": "Bloody November",
+    "deaths": 1500,
+    "caseStatus": "active",
+    "commandersIdentified": 23,
+    "victimsDocumented": 4721,
+    "evidencePackages": 14,
+    "description": "Largest single crackdown since 1988. 23 commanders identified with identical 'use necessary force' directives traced to 4 cities. Pattern: same wording in 47 SNSC documents recovered. Active cases: 1,201. Ansari case prosecution-ready at 87%."
+  },
+  {
+    "id": "te-2020",
+    "date": "2020-01-08",
+    "jalaliDate": "1398/10/18",
+    "title": "Flight PS752",
+    "deaths": 176,
+    "caseStatus": "active",
+    "commandersIdentified": 6,
+    "victimsDocumented": 176,
+    "evidencePackages": 8,
+    "description": "Ukrainian International Airlines. IRGC missile unit commanders identified. 6 command decisions documented. International court proceedings: active."
+  },
+  {
+    "id": "te-2022a",
+    "date": "2022-09-16",
+    "jalaliDate": "1401/06/25",
+    "title": "Mahsa Amini Uprising",
+    "deaths": 551,
+    "caseStatus": "active",
+    "commandersIdentified": 38,
+    "victimsDocumented": 22000,
+    "evidencePackages": 41,
+    "description": "Nationwide uprising following custodial death of Mahsa Amini. Ongoing documentation. 551+ confirmed deaths, 22,000+ detained."
+  },
+  {
+    "id": "te-2022b",
+    "date": "2022-09-30",
+    "jalaliDate": "1401/07/08",
+    "title": "Zahedan Bloody Friday",
+    "deaths": 96,
+    "caseStatus": "active",
+    "commandersIdentified": 8,
+    "victimsDocumented": 96,
+    "evidencePackages": 6,
+    "description": "IRGC attack on worshippers following Friday prayers in Zahedan. 96 confirmed deaths. Commanders identified through SIGINT and witness testimony."
+  },
+  {
+    "id": "te-2024",
+    "date": "2024-01-01",
+    "jalaliDate": "1402/10/11",
+    "title": "January Revolution",
+    "deaths": 0,
+    "caseStatus": "pending",
+    "commandersIdentified": 0,
+    "victimsDocumented": 0,
+    "evidencePackages": 0,
+    "description": "Ongoing. Documentation in progress. Transitional authority established. JB platform operational."
+  }
+]

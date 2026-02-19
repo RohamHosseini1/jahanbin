@@ -1,0 +1,102 @@
+[
+  {
+    "entityId": "JB-P-00283716",
+    "entityName": "Colonel Davoud Ansari",
+    "category": "A",
+    "basis": "IRGC officer — 89 civilian deaths attributed, 3 SNSC directives, active investigation",
+    "authorizedBy": "Judicial Officer JO-0047",
+    "authRef": "AUTH-2026-0081",
+    "expires": "2026-04-28",
+    "status": "interdicted"
+  },
+  {
+    "entityId": "JB-P-00142857",
+    "entityName": "Hossein Taghavi",
+    "category": "A",
+    "basis": "Active cell leader — Operation SPARROW — infrastructure threat",
+    "authorizedBy": "Judicial Officer JO-0047",
+    "authRef": "AUTH-2026-0085",
+    "expires": "2026-04-30",
+    "status": "active"
+  },
+  {
+    "entityId": "JB-P-00389201",
+    "entityName": "Reza Ahmadzadeh",
+    "category": "A",
+    "basis": "Operational coordinator — active investigation CT-OPS",
+    "authorizedBy": "Judicial Officer JO-0047",
+    "authRef": "AUTH-2026-0085",
+    "expires": "2026-04-30",
+    "status": "active"
+  },
+  {
+    "entityId": "JB-P-00521089",
+    "entityName": "Maryam Bahrami",
+    "category": "B",
+    "basis": "Logistics coordinator — active surveillance CT-OPS",
+    "authorizedBy": "Judicial Officer JO-0052",
+    "authRef": "AUTH-2026-0086",
+    "expires": "2026-03-15",
+    "status": "active"
+  },
+  {
+    "entityId": "JB-P-00098211",
+    "entityName": "Brig. Gen. Ahmad Shafahi",
+    "category": "A",
+    "basis": "Regional command responsibility — Bloody November 2019 — TRC investigation",
+    "authorizedBy": "Judicial Officer JO-0039",
+    "authRef": "AUTH-2025-0934",
+    "expires": "2026-03-01",
+    "status": "active"
+  },
+  {
+    "entityId": "JB-P-00331028",
+    "entityName": "Farshid Mohammadi",
+    "category": "B",
+    "basis": "Financial intermediary — Setad network — FININT investigation",
+    "authorizedBy": "Judicial Officer JO-0052",
+    "authRef": "AUTH-2026-0072",
+    "expires": "2026-03-20",
+    "status": "active"
+  },
+  {
+    "entityId": "JB-P-00447821",
+    "entityName": "Nasrin Karimi",
+    "category": "C",
+    "basis": "Associate — periodic review required",
+    "authorizedBy": "Judicial Officer JO-0061",
+    "authRef": "AUTH-2026-0014",
+    "expires": "2026-02-14",
+    "status": "expired"
+  },
+  {
+    "entityId": "JB-P-00198312",
+    "entityName": "Ahmad Rezaei",
+    "category": "C",
+    "basis": "Border crossing — document anomaly — investigation ongoing",
+    "authorizedBy": "Judicial Officer JO-0047",
+    "authRef": "AUTH-2026-0071",
+    "expires": "2026-05-01",
+    "status": "active"
+  },
+  {
+    "entityId": "JB-P-00562743",
+    "entityName": "Bahram Shirazi",
+    "category": "B",
+    "basis": "Procurement network — Khatam linked — FININT",
+    "authorizedBy": "Judicial Officer JO-0052",
+    "authRef": "AUTH-2025-0891",
+    "expires": "2026-02-20",
+    "status": "active"
+  },
+  {
+    "entityId": "JB-P-00634521",
+    "entityName": "Leila Hosseini",
+    "category": "C",
+    "basis": "Possible financial courier — low confidence — monitoring",
+    "authorizedBy": "Judicial Officer JO-0039",
+    "authRef": "AUTH-2026-0021",
+    "expires": "2026-04-10",
+    "status": "active"
+  }
+]

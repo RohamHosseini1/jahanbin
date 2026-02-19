@@ -1,0 +1,127 @@
+[
+  {
+    "id": "JB-P-00283716",
+    "type": "person",
+    "name": "Colonel Davoud Ansari",
+    "nameLocal": "سرهنگ داوود انصاری",
+    "aliases": ["Kamyar Shirazi", "D. Ansari"],
+    "status": "interdicted",
+    "threatLevel": "critical",
+    "modules": [
+      { "module": "ct-ops", "status": "named-associate", "summary": "Financial link to Taghavi cell — confirmed Day 12", "caseRef": "JB-CASE-2026-0047" },
+      { "module": "fin-enf", "status": "under-investigation", "summary": "$23.4M identified across 4 jurisdictions" },
+      { "module": "bdr-sec", "status": "interdicted", "summary": "Interdicted Bazargan — forged passport (94.7% biometric match)" },
+      { "module": "trc-sup", "status": "prosecution-ready", "summary": "87% prosecution readiness — 89 deaths attributed, 3 SNSC directives" }
+    ],
+    "metadata": {
+      "dob": "1968-09-14",
+      "nationality": "Iranian",
+      "role": "IRGC Senior Officer, Intelligence Directorate",
+      "active": "2003-present",
+      "totalAssets": "$23.4M",
+      "jurisdictions": 4,
+      "prosecutionReadiness": 87,
+      "deathsAttributed": 89
+    }
+  },
+  {
+    "id": "JB-P-00142857",
+    "type": "person",
+    "name": "Hossein Taghavi",
+    "nameLocal": "حسین تقوی",
+    "aliases": [],
+    "status": "active",
+    "threatLevel": "critical",
+    "modules": [
+      { "module": "ct-ops", "status": "primary-subject", "summary": "Cell leader — Operation SPARROW", "caseRef": "JB-CASE-2026-0047" }
+    ],
+    "metadata": {
+      "role": "IRGC-QF officer 2003–2019, current status unknown",
+      "betweennessScore": 0.84,
+      "cellSize": "7-9 members",
+      "sigintPattern": "Burst comm 07:00-08:00"
+    }
+  },
+  {
+    "id": "JB-P-00389201",
+    "type": "person",
+    "name": "Reza Ahmadzadeh",
+    "nameLocal": "رضا احمدزاده",
+    "aliases": [],
+    "status": "active",
+    "threatLevel": "high",
+    "modules": [
+      { "module": "ct-ops", "status": "associate", "summary": "Operational coordinator — 7 accounts flagged", "caseRef": "JB-CASE-2026-0047" },
+      { "module": "fin-enf", "status": "flagged", "summary": "$142K anomalous activity +340% baseline" }
+    ],
+    "metadata": {
+      "role": "Operational commander",
+      "accountsFlagged": 7,
+      "anomalousActivity": "$142K"
+    }
+  },
+  {
+    "id": "JB-P-00521089",
+    "type": "person",
+    "name": "Maryam Bahrami",
+    "nameLocal": "مریم بهرامی",
+    "aliases": [],
+    "status": "active",
+    "threatLevel": "high",
+    "modules": [
+      { "module": "ct-ops", "status": "associate", "summary": "Logistics coordinator — critical bridge node (betweenness: 0.67)", "caseRef": "JB-CASE-2026-0047" }
+    ],
+    "metadata": {
+      "betweennessScore": 0.67,
+      "role": "Logistics coordinator"
+    }
+  },
+  {
+    "id": "JB-P-00098211",
+    "type": "person",
+    "name": "Brig. Gen. Ahmad Shafahi",
+    "nameLocal": "سردار احمد شفاهی",
+    "aliases": [],
+    "status": "active",
+    "threatLevel": "critical",
+    "modules": [
+      { "module": "trc-sup", "status": "under-investigation", "summary": "Regional command — transmitted live-fire orders, Bloody November 2019" }
+    ],
+    "metadata": {
+      "role": "IRGC Southeast Regional Command",
+      "deathsAttributed": 0
+    }
+  },
+  {
+    "id": "JB-O-00001",
+    "type": "organization",
+    "name": "Setad",
+    "nameLocal": "ستاد اجرایی فرمان حضرت امام",
+    "aliases": ["Setad Ejraiye Farman-e Hazrat Emam"],
+    "status": "active",
+    "modules": [
+      { "module": "fin-enf", "status": "under-investigation", "summary": "$155B+ estimated assets — 47,000+ entities" }
+    ],
+    "metadata": {
+      "estimatedAssets": "155B+",
+      "linkedEntities": 47000,
+      "subsidiaries": 247,
+      "shellClusters": 812
+    }
+  },
+  {
+    "id": "JB-O-00002",
+    "type": "organization",
+    "name": "Khatam al-Anbiya Construction HQ",
+    "nameLocal": "قرارگاه خاتم الانبیاء",
+    "aliases": ["Khatam", "KAA"],
+    "status": "active",
+    "modules": [
+      { "module": "fin-enf", "status": "sanctioned", "summary": "OFAC sanctioned — IRGC engineering arm" }
+    ],
+    "metadata": {
+      "sanctionStatus": "OFAC",
+      "linkedEntities": ["JB-P-00283716"]
+    }
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "FA-001",
+    "entityId": "JB-P-00283716",
+    "institution": "Emirates NBD (Al-Furqan Trading LLC)",
+    "jurisdiction": "UAE",
+    "type": "corporate",
+    "estimatedBalance": 8200000,
+    "currency": "USD",
+    "status": "monitored",
+    "lastActivity": "2026-01-28",
+    "admiralty": "B2"
+  },
+  {
+    "id": "FA-002",
+    "entityId": "JB-P-00283716",
+    "institution": "Ziraat Bank (Omid Construction LLC)",
+    "jurisdiction": "Turkey",
+    "type": "corporate",
+    "estimatedBalance": 6700000,
+    "currency": "USD",
+    "status": "freeze-requested",
+    "lastActivity": "2026-01-30",
+    "admiralty": "A1"
+  },
+  {
+    "id": "FA-003",
+    "entityId": "JB-P-00283716",
+    "institution": "Ameriabank",
+    "jurisdiction": "Armenia",
+    "type": "personal",
+    "estimatedBalance": 1600000,
+    "currency": "USD",
+    "status": "monitored",
+    "lastActivity": "2026-01-10",
+    "admiralty": "B2"
+  },
+  {
+    "id": "FA-004",
+    "entityId": "JB-P-00283716",
+    "institution": "Ameriabank",
+    "jurisdiction": "Armenia",
+    "type": "personal",
+    "estimatedBalance": 1500000,
+    "currency": "USD",
+    "status": "monitored",
+    "lastActivity": "2025-12-18",
+    "admiralty": "B2"
+  },
+  {
+    "id": "FA-005",
+    "entityId": "JB-P-00283716",
+    "institution": "TBC Bank",
+    "jurisdiction": "Iraq (Erbil)",
+    "type": "corporate",
+    "estimatedBalance": 5400000,
+    "currency": "USD",
+    "status": "flagged",
+    "lastActivity": "2026-01-25",
+    "admiralty": "C2"
+  },
+  {
+    "id": "FA-006",
+    "entityId": "JB-P-00283716",
+    "institution": "TRON Wallet Cluster",
+    "jurisdiction": "Crypto",
+    "type": "crypto",
+    "estimatedBalance": 14200000,
+    "currency": "USDT",
+    "status": "tracking",
+    "lastActivity": "2026-02-01",
+    "admiralty": "A2"
+  },
+  {
+    "id": "FA-007",
+    "entityId": "JB-P-00389201",
+    "institution": "Bank Melli Iran",
+    "jurisdiction": "Iran",
+    "type": "personal",
+    "estimatedBalance": 142000,
+    "currency": "USD",
+    "status": "flagged",
+    "lastActivity": "2026-01-18",
+    "admiralty": "B1"
+  }
+]

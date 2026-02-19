@@ -1,0 +1,59 @@
+[
+  {
+    "id": "JB-CASE-2026-0047",
+    "title": "Operation SPARROW",
+    "module": "ct-ops",
+    "status": "active",
+    "priority": "critical",
+    "subjects": ["JB-P-00142857", "JB-P-00389201", "JB-P-00521089"],
+    "leadAnalyst": "JB-0471",
+    "opened": "2026-01-15",
+    "lastUpdated": "2026-02-03",
+    "crossRefs": [
+      { "module": "fin-enf", "type": "asset-freeze", "description": "Freeze accounts linked to Omid Construction LLC and Khatam procurement chain", "status": "pending-authorization" },
+      { "module": "bdr-sec", "type": "border-watch", "description": "Flag 9 cell members for border watch — detain if crossing", "status": "active" },
+      { "module": "trc-sup", "type": "service-record", "description": "Cross-reference service records for human rights accountability", "status": "active" }
+    ]
+  },
+  {
+    "id": "JB-CASE-2026-0031",
+    "title": "Network ASHRAF",
+    "module": "ct-ops",
+    "status": "active",
+    "priority": "standard",
+    "subjects": ["JB-P-00389201"],
+    "leadAnalyst": "JB-0523",
+    "opened": "2026-01-03",
+    "lastUpdated": "2026-01-29",
+    "crossRefs": []
+  },
+  {
+    "id": "JB-CASE-2026-0019",
+    "title": "Financial channel HAKIM",
+    "module": "ct-ops",
+    "status": "pending-authorization",
+    "priority": "standard",
+    "subjects": [],
+    "leadAnalyst": "JB-0344",
+    "opened": "2025-12-18",
+    "lastUpdated": "2026-01-22",
+    "crossRefs": [
+      { "module": "fin-enf", "type": "account-monitoring", "description": "FININT access to suspected Setad sub-accounts", "status": "pending-authorization" }
+    ]
+  },
+  {
+    "id": "TRC-INV-2019-001",
+    "title": "Bloody November — Crackdowns 2019",
+    "module": "trc-sup",
+    "status": "active",
+    "priority": "critical",
+    "subjects": ["JB-P-00283716", "JB-P-00098211"],
+    "leadAnalyst": "JB-0201",
+    "opened": "2023-09-01",
+    "lastUpdated": "2026-02-01",
+    "crossRefs": [
+      { "module": "fin-enf", "type": "asset-freeze", "description": "Assets freeze — pending authorization", "status": "pending-authorization" },
+      { "module": "bdr-sec", "type": "watchlist", "description": "Ansari — Category A watchlist", "status": "active" }
+    ]
+  }
+]

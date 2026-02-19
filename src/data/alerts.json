@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ALT-001",
+    "severity": "high",
+    "timestamp": "2026-02-03T09:42:00",
+    "type": "MOVEMENT",
+    "description": "Dubai transfer: $47.2M via 4 shell entities",
+    "amount": "$47.2M",
+    "entityId": "JB-P-00283716",
+    "entityName": "Col. Davoud Ansari",
+    "detail": "Omid Construction LLC → Al-Furqan Trading → 2 intermediate entities → personal account, Dubai. Transfer pattern matches known asset flight indicators. Linked to Khatam procurement network. Freeze request submitted — pending Emirati coordination."
+  },
+  {
+    "id": "ALT-002",
+    "severity": "medium",
+    "timestamp": "2026-02-03T09:38:00",
+    "type": "JURISDICTIONAL",
+    "description": "Kish Island: 84 property transactions initiated ($2.1B)",
+    "amount": "$2.1B",
+    "entityId": "JB-O-00001",
+    "entityName": "Setad",
+    "detail": "84 property transactions in Kish Free Trade Zone. Shell entity cluster. Consistent with asset relocation pattern prior to regime transition. Recommend monitoring and entity resolution."
+  },
+  {
+    "id": "ALT-003",
+    "severity": "high",
+    "timestamp": "2026-02-03T09:31:00",
+    "type": "CRYPTO",
+    "description": "TRON wallet cluster: $14.2M converted to USDT",
+    "amount": "$14.2M",
+    "entityId": "JB-P-00283716",
+    "entityName": "Col. Davoud Ansari",
+    "detail": "TRON wallet cluster attributed to Ansari with high confidence (A2). $14.2M converted to USDT and distributed across 7 addresses. Blockchain analysis ongoing. Not yet seized — tracking active."
+  },
+  {
+    "id": "ALT-004",
+    "severity": "critical",
+    "timestamp": "2026-02-03T09:24:00",
+    "type": "FREEZE",
+    "description": "Bank Melli (12 linked accounts): Setad network ($340M) — freeze pending authorization",
+    "amount": "$340M",
+    "entityId": "JB-O-00001",
+    "entityName": "Setad",
+    "detail": "12 accounts across Bank Melli network linked to Setad sub-entities. Aggregate balance: $340M. Freeze request AUTH-2026-0088 pending judicial authorization. Review deadline: 2026-02-04."
+  },
+  {
+    "id": "ALT-005",
+    "severity": "medium",
+    "timestamp": "2026-02-03T09:15:00",
+    "type": "INVESTIGATE",
+    "description": "Turkish holding company: possible Khatam front — document request initiated",
+    "amount": "",
+    "entityId": "JB-O-00002",
+    "entityName": "Khatam al-Anbiya",
+    "detail": "Turkish company registration cross-referenced with known Khatam procurement patterns. 3 common directors identified. Document request submitted to Turkish financial intelligence unit (MASAK). Estimated response: 14 days."
+  }
+]
