@@ -1,11 +1,12 @@
 'use client';
 
-import { use } from 'react';
+import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 
-export default function AlertDetailPage({ params }: { params: Promise<{ alertId: string }> }) {
-  const { alertId } = use(params);
+export default function AlertDetailPage() {
+  const params = useParams();
+  const alertId = params.alertId as string;
 
   const isAnsariAlert = alertId === 'BDR-2026-0038-A';
 

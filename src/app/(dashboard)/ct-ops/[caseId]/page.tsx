@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { use } from 'react';
+import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { FileText, Users, Network, Lightbulb, ClipboardList, ChevronRight, Plus } from 'lucide-react';
 import { AdmiraltyBadge } from '@/components/shared/AdmiraltyBadge';
@@ -43,8 +43,9 @@ const JAHAN_ANALYSIS = [
   },
 ];
 
-export default function CaseWorkspacePage({ params }: { params: Promise<{ caseId: string }> }) {
-  const { caseId } = use(params);
+export default function CaseWorkspacePage() {
+  const params = useParams();
+  const caseId = params.caseId as string;
   const [activeTab, setActiveTab] = useState('reports');
   const [showProcessReport, setShowProcessReport] = useState(false);
   const [showThreatAssessment, setShowThreatAssessment] = useState(false);

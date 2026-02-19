@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, use } from 'react';
+import { useState } from 'react';
+import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { FileText, Users, BookOpen, Link2, Package } from 'lucide-react';
 import { AdmiraltyBadge } from '@/components/shared/AdmiraltyBadge';
@@ -27,8 +28,9 @@ const JAHAN_ANALYSIS = [
   },
 ];
 
-export default function TrcCaseWorkspacePage({ params }: { params: Promise<{ caseId: string }> }) {
-  const { caseId } = use(params);
+export default function TrcCaseWorkspacePage() {
+  const params = useParams();
+  const caseId = params.caseId as string;
   const [activeTab, setActiveTab] = useState('subjects');
   const [selectedSubject, setSelectedSubject] = useState<string | null>('JB-P-00283716');
 

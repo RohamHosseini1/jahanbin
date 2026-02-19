@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, use } from 'react';
+import { useState } from 'react';
+import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { CreditCard, TrendingDown, Network, FileCheck, FileText } from 'lucide-react';
 import { JahanPanel } from '@/components/shared/JahanPanel';
@@ -45,8 +46,9 @@ const txData = Array.from({ length: 24 }, (_, i) => ({
   flagged: i > 20,
 }));
 
-export default function SubjectWorkspacePage({ params }: { params: Promise<{ entityId: string }> }) {
-  const { entityId } = use(params);
+export default function SubjectWorkspacePage() {
+  const params = useParams();
+  const entityId = params.entityId as string;
   const [activeTab, setActiveTab] = useState('accounts');
 
   return (
