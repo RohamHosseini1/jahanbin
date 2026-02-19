@@ -5,16 +5,16 @@ import { getNetworkGraph } from '@/lib/mock-data';
 import type { NetworkNode } from '@/lib/types';
 
 const clusterColors: Record<string, string> = {
-  operational: '#EF4444',
-  logistics: '#F59E0B',
-  historical: '#475569',
+  operational: '#DC2626',
+  logistics: '#D97706',
+  historical: '#A8A29E',
 };
 
 const edgeColors: Record<string, string> = {
-  sigint: '#EF4444',
-  financial: '#06B6D4',
-  physical: '#94A3B8',
-  historical: '#334155',
+  sigint: '#7C3AED',
+  financial: '#1D4ED8',
+  physical: '#78716C',
+  historical: '#D6D3D1',
 };
 
 export function NetworkGraph() {
@@ -73,7 +73,7 @@ export function NetworkGraph() {
       if (canvas.height !== H) canvas.height = H;
 
       ctx.clearRect(0, 0, W, H);
-      ctx.fillStyle = '#08090c';
+      ctx.fillStyle = '#FAFAF9';
       ctx.fillRect(0, 0, W, H);
 
       const ns = nodesRef.current;
@@ -174,7 +174,7 @@ export function NetworkGraph() {
 
         // Label
         const label = node.label.split(' (')[0].split(' ').slice(0, 2).join(' ');
-        ctx.fillStyle = node.cluster === 'historical' ? '#334155' : '#94A3B8';
+        ctx.fillStyle = node.cluster === 'historical' ? '#A8A29E' : '#78716C';
         ctx.font = `10px Inter, sans-serif`;
         ctx.textAlign = 'center';
         ctx.fillText(label, node.x, node.y + size + 11);
@@ -216,33 +216,33 @@ export function NetworkGraph() {
       />
       {hoveredNode && (
         <div className="absolute top-3 left-3 rounded-md border px-3 py-2 pointer-events-none z-10"
-          style={{ backgroundColor: '#0f1117', borderColor: '#2d3a52', maxWidth: 240 }}>
-          <div className="text-[12px] font-medium" style={{ color: '#F1F5F9' }}>{hoveredNode.label}</div>
-          <div className="text-[10px] font-mono mt-0.5 capitalize" style={{ color: '#64748B' }}>
+          style={{ backgroundColor: '#FFFFFF', borderColor: '#E7E5E4', maxWidth: 240, boxShadow: '0 1px 4px rgba(0,0,0,0.08)' }}>
+          <div className="text-[12px] font-medium" style={{ color: '#1C1917' }}>{hoveredNode.label}</div>
+          <div className="text-[10px] font-mono mt-0.5 capitalize" style={{ color: '#78716C' }}>
             {hoveredNode.cluster} cluster · {hoveredNode.type}
           </div>
           {hoveredNode.betweenness && (
-            <div className="text-[10px] mt-0.5" style={{ color: '#F59E0B' }}>
+            <div className="text-[10px] mt-0.5" style={{ color: '#D97706' }}>
               Betweenness centrality: {hoveredNode.betweenness}
             </div>
           )}
           {hoveredNode.entityId && (
-            <div className="text-[10px] font-mono mt-0.5" style={{ color: '#3B82F6' }}>{hoveredNode.entityId}</div>
+            <div className="text-[10px] font-mono mt-0.5" style={{ color: '#1D4ED8' }}>{hoveredNode.entityId}</div>
           )}
         </div>
       )}
       {/* Legend */}
       <div className="absolute bottom-3 right-3 rounded-md border px-3 py-2"
-        style={{ backgroundColor: '#0f111780', borderColor: '#1e2533' }}>
+        style={{ backgroundColor: '#FFFFFFCC', borderColor: '#E7E5E4' }}>
         <div className="space-y-1">
           {[
-            { color: '#EF4444', label: 'Operational cell' },
-            { color: '#F59E0B', label: 'Logistics/support' },
-            { color: '#475569', label: 'Historical (inactive)' },
+            { color: '#DC2626', label: 'Operational cell' },
+            { color: '#D97706', label: 'Logistics/support' },
+            { color: '#A8A29E', label: 'Historical (inactive)' },
           ].map(item => (
             <div key={item.label} className="flex items-center gap-1.5">
               <div className="w-2 h-2 rounded-full" style={{ backgroundColor: item.color }} />
-              <span className="text-[10px]" style={{ color: '#64748B' }}>{item.label}</span>
+              <span className="text-[10px]" style={{ color: '#78716C' }}>{item.label}</span>
             </div>
           ))}
         </div>

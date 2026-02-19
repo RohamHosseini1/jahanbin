@@ -25,8 +25,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
-      <body className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased`}>
+    <html lang="en">
+      <head>
+        <link
+          href="https://cdn.jsdelivr.net/npm/vazirmatn@33.003/Vazirmatn.css"
+          rel="stylesheet"
+        />
+      </head>
+      <body className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased overflow-hidden h-screen`}>
         {children}
       </body>
     </html>

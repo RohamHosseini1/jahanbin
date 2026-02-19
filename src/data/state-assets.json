@@ -1,0 +1,9 @@
+[
+  { "id": "REG-001", "name": "Shahroud Steel Complex", "nameLocal": "مجتمع فولاد شاهرود", "sector": "Manufacturing", "estimatedValue": 2100000000, "status": "state-owned", "flag": "privatization-candidate", "ebitdaMargin": 0.18, "employees": 2400 },
+  { "id": "REG-002", "name": "National Iranian Gas Co (Shiraz branch)", "nameLocal": "شرکت ملی گاز ایران - شیراز", "sector": "Energy", "estimatedValue": 890000000, "status": "partial-private", "flag": "complex-ownership", "note": "85% revenue concentration risk" },
+  { "id": "REG-003", "name": "Iran Air Maintenance (IAMCO)", "nameLocal": "شرکت تعمیر و نگهداری هواپیما", "sector": "Aviation", "estimatedValue": 340000000, "status": "state-owned", "flag": "viable", "ebitdaMargin": 0.12, "employees": 890 },
+  { "id": "REG-004", "name": "Esfahan Refinery Complex", "nameLocal": "پالایشگاه اصفهان", "sector": "Petrochemical", "estimatedValue": 1400000000, "status": "state-owned", "flag": "strategic", "note": "No privatization — strategic infrastructure" },
+  { "id": "REG-005", "name": "Kish Free Zone Authority", "nameLocal": "منطقه آزاد کیش", "sector": "Finance", "estimatedValue": 670000000, "status": "under-review", "flag": "setad-linked", "note": "Setad-linked — investigate financial structure before assessment" },
+  { "id": "REG-006", "name": "Tehran Metro Construction Co.", "nameLocal": "شرکت ساخت و توسعه مترو تهران", "sector": "Infrastructure", "estimatedValue": 520000000, "status": "state-owned", "flag": "privatization-candidate", "ebitdaMargin": 0.09, "employees": 1200 },
+  { "id": "REG-007", "name": "Pars Petrochemical Special Zone", "nameLocal": "منطقه ویژه پتروشیمی پارس", "sector": "Petrochemical", "estimatedValue": 3200000000, "status": "state-owned", "flag": "strategic", "note": "Critical energy infrastructure — not eligible for privatization" }
+]

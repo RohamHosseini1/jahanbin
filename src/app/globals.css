@@ -4,33 +4,34 @@
 
 @layer base {
   :root {
-    --background: 222 47% 4%;
-    --foreground: 210 40% 95%;
-    --card: 222 44% 7%;
-    --card-foreground: 210 40% 95%;
-    --popover: 222 44% 9%;
-    --popover-foreground: 210 40% 95%;
-    --primary: 217 91% 60%;
-    --primary-foreground: 222 47% 4%;
-    --secondary: 222 30% 15%;
-    --secondary-foreground: 210 40% 95%;
-    --muted: 222 30% 12%;
-    --muted-foreground: 215 20% 58%;
-    --accent: 222 30% 16%;
-    --accent-foreground: 210 40% 95%;
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 95%;
-    --border: 222 30% 16%;
-    --input: 222 30% 12%;
-    --ring: 217 91% 60%;
-    --chart-1: 217 91% 60%;
-    --chart-2: 160 84% 39%;
-    --chart-3: 43 96% 56%;
-    --chart-4: 280 87% 65%;
-    --chart-5: 24 95% 53%;
-    --radius: 0.5rem;
-    --classification-bg: #1a0a00;
+    --background: 0 0% 100%;
+    --foreground: 20 14% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 20 14% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14% 11%;
+    --primary: 224 72% 48%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 20 6% 96%;
+    --secondary-foreground: 20 14% 11%;
+    --muted: 20 6% 96%;
+    --muted-foreground: 20 5% 50%;
+    --accent: 20 6% 96%;
+    --accent-foreground: 20 14% 11%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 20 6% 90%;
+    --input: 20 6% 90%;
+    --ring: 224 72% 48%;
+    --chart-1: 224 72% 48%;
+    --chart-2: 142 72% 29%;
+    --chart-3: 38 92% 50%;
+    --chart-4: 262 83% 58%;
+    --chart-5: 0 72% 51%;
+    --radius: 0.375rem;
+    --classification-bg: #1C1917;
     --classification-text: #D97706;
+    --font-mono: 'JetBrains Mono', monospace;
   }
 }
 
@@ -40,9 +41,12 @@
     box-sizing: border-box;
   }
 
+  html, body {
+    background-color: #FFFFFF;
+    color: #1C1917;
+  }
+
   body {
-    background-color: #08090c;
-    color: #F1F5F9;
     font-family: var(--font-inter), Inter, system-ui, sans-serif;
     font-size: 13px;
     line-height: 1.5;
@@ -51,21 +55,21 @@
   }
 
   ::-webkit-scrollbar {
-    width: 4px;
-    height: 4px;
+    width: 6px;
+    height: 6px;
   }
 
   ::-webkit-scrollbar-track {
-    background: #08090c;
+    background: #F5F5F4;
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #1e2533;
-    border-radius: 2px;
+    background: #D6D3D1;
+    border-radius: 3px;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #2d3a52;
+    background: #A8A29E;
   }
 }
 
@@ -80,7 +84,7 @@
   }
 }
 
-/* Typewriter animation for JahanAI */
+/* Typewriter animation for JAHAN */
 @keyframes typewriter-cursor {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
@@ -89,7 +93,7 @@
 .typewriter-cursor::after {
   content: '▋';
   animation: typewriter-cursor 1s infinite;
-  color: #8B5CF6;
+  color: #7C3AED;
   margin-left: 2px;
 }
 
@@ -107,7 +111,7 @@
 .chain-connector {
   width: 2px;
   height: 32px;
-  background: linear-gradient(to bottom, #2d3a52, #1e2533);
+  background: linear-gradient(to bottom, #D6D3D1, #E7E5E4);
   margin: 0 auto;
 }
 
@@ -125,7 +129,7 @@
 .timeline-scroll {
   overflow-x: auto;
   scrollbar-width: thin;
-  scrollbar-color: #1e2533 #08090c;
+  scrollbar-color: #D6D3D1 #F5F5F4;
 }
 
 a {
@@ -134,12 +138,35 @@ a {
 }
 
 input, textarea, select {
-  background-color: #0f1117;
-  border-color: #1e2533;
-  color: #F1F5F9;
+  background-color: #FFFFFF;
+  border-color: #D6D3D1;
+  color: #1C1917;
 }
 
 input:focus, textarea:focus, select:focus {
   outline: none;
-  border-color: #2d3a52;
+  border-color: #1D4ED8;
+}
+
+/* JAHAN thinking state animation */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.jahan-thinking-dot {
+  animation: pulse-dot 1.2s ease-in-out infinite;
+}
+
+/* Tour highlight pulse */
+@keyframes tour-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(29, 78, 216, 0.4); }
+  50% { box-shadow: 0 0 0 6px rgba(29, 78, 216, 0); }
+}
+
+.tour-highlight {
+  animation: tour-pulse 2s ease-in-out infinite;
+  outline: 2px solid #1D4ED8;
+  outline-offset: 2px;
+  border-radius: 4px;
 }
