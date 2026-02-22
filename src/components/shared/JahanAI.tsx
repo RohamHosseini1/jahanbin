@@ -54,15 +54,15 @@ export function JahanAI({ steps, autoStart = true, onComplete, className }: Jaha
   return (
     <div
       className={`rounded-lg border overflow-hidden ${className || ''}`}
-      style={{ backgroundColor: '#0d0f15', borderColor: '#2d1f4a', borderLeft: '2px solid #8B5CF6' }}
+      style={{ backgroundColor: '#F5F3FF', borderColor: '#DDD6FE', borderLeft: '2px solid #7C3AED' }}
     >
       {/* Header */}
-      <div className="flex items-center gap-2 px-4 py-3 border-b" style={{ borderColor: '#1e1438' }}>
-        <Brain size={14} style={{ color: '#8B5CF6' }} />
-        <span className="text-[12px] font-medium" style={{ color: '#8B5CF6' }}>JAHAN — Automated Analysis</span>
-        {isComplete && <CheckCircle size={12} style={{ color: '#10B981' }} className="ml-auto" />}
+      <div className="flex items-center gap-2 px-4 py-3 border-b" style={{ borderColor: '#DDD6FE', backgroundColor: '#EDE9FE' }}>
+        <Brain size={14} style={{ color: '#7C3AED' }} />
+        <span className="text-[12px] font-medium" style={{ color: '#7C3AED' }}>JAHAN — Automated Analysis</span>
+        {isComplete && <CheckCircle size={12} style={{ color: '#16A34A' }} className="ml-auto" />}
         {!isComplete && isRunning && (
-          <span className="ml-auto text-[10px]" style={{ color: '#6B46C1' }}>Processing...</span>
+          <span className="ml-auto text-[10px]" style={{ color: '#6D28D9' }}>Processing...</span>
         )}
       </div>
 
@@ -70,25 +70,25 @@ export function JahanAI({ steps, autoStart = true, onComplete, className }: Jaha
       <div
         ref={containerRef}
         className="px-4 py-3 space-y-1.5 max-h-64 overflow-y-auto font-mono text-[11px]"
-        style={{ color: '#94A3B8' }}
+        style={{ color: '#44403C' }}
       >
         {displayedSteps.map((step, i) => (
           <div key={i} className="flex gap-2">
-            <span style={{ color: '#6B46C1' }}>›</span>
-            <span style={{ color: '#A78BFA' }}>{step}</span>
+            <span style={{ color: '#7C3AED' }}>›</span>
+            <span style={{ color: '#4C1D95' }}>{step}</span>
           </div>
         ))}
         {currentText && (
           <div className="flex gap-2">
-            <span style={{ color: '#6B46C1' }}>›</span>
-            <span style={{ color: '#C4B5FD' }} className="typewriter-cursor">{currentText}</span>
+            <span style={{ color: '#7C3AED' }}>›</span>
+            <span style={{ color: '#6D28D9' }} className="typewriter-cursor">{currentText}</span>
           </div>
         )}
         {!isRunning && !isComplete && (
           <button
             onClick={() => setIsRunning(true)}
-            className="text-[11px] px-2 py-1 rounded border transition-colors hover:bg-[#1e1438]"
-            style={{ color: '#8B5CF6', borderColor: '#3b076440' }}
+            className="text-[11px] px-2 py-1 rounded border transition-colors hover:bg-[#EDE9FE]"
+            style={{ color: '#7C3AED', borderColor: '#C4B5FD' }}
           >
             Start analysis
           </button>
@@ -97,9 +97,9 @@ export function JahanAI({ steps, autoStart = true, onComplete, className }: Jaha
 
       {/* Disclaimer */}
       {isComplete && (
-        <div className="px-4 py-2 border-t flex items-center gap-1.5" style={{ borderColor: '#1e1438', backgroundColor: '#0a0c10' }}>
-          <AlertCircle size={11} style={{ color: '#475569' }} />
-          <span className="text-[10px]" style={{ color: '#475569' }}>
+        <div className="px-4 py-2 border-t flex items-center gap-1.5" style={{ borderColor: '#DDD6FE', backgroundColor: '#EDE9FE' }}>
+          <AlertCircle size={11} style={{ color: '#78716C' }} />
+          <span className="text-[10px]" style={{ color: '#78716C' }}>
             AI-assisted analysis. Analyst review and authorization required.
           </span>
         </div>
